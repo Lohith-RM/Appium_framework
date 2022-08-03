@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<groups>
+<run>
+<include name="regressionTest"></include>
+<include name="smokeTest"></include>
+</run>
+</groups>
+
+  <test thread-count="5" name="Test">
+  <parameter name="version" value="11.0"></parameter>
+  <parameter name="serialnumber" value="R58R35AN7BH"></parameter>
+  <parameter name="port" value="4723"></parameter>
+  <classes>
+  <class name="crossFlatformAndCrossBrowserTest.LaunchAPiDemoAppTest"/>
+  <class name="crossFlatformAndCrossBrowserTest.LaunchGeneralStoreAppTest"/>
+  <class name="crossFlatformAndCrossBrowserTest.LaunchTouchScreenAppTest"/>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test thread-count="2" name="Test1">
+  <parameter name="version" value="11.0.0"></parameter>
+  <parameter name="serialnumber" value="R58R35AN7BH"></parameter>
+  <parameter name="port" value="4723"></parameter>  
+    <classes>
+      <class name="crossFlatformAndCrossBrowserTest.ParallelExecutionTest"/>
+    </classes>
+  </test> <!-- Test -->
+   <test thread-count="2" name="Test2">
+   <parameter name="version" value="10"></parameter>
+  <parameter name="serialnumber" value="THC3Y18B28001513"></parameter>
+  <parameter name="port" value="4722"></parameter>  
+    <classes>
+      <class name="crossFlatformAndCrossBrowserTest.ParallelExecutionTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,6 @@
+FROM Bangalore
+TO Mangalore
+PASSENGERNAME Rahul
+EMAIL lohithgowdarm@gmail.com
+MOBILENUMBER 7760954924
+PICKUPPOINT Yelachenahalli

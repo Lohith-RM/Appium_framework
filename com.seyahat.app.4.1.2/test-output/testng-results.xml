@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-02T15:07:04 IST" name="Default suite" finished-at="2022-08-02T15:08:45 IST" duration-ms="101031">
+    <groups>
+    </groups>
+    <test started-at="2022-08-02T15:07:04 IST" name="Default test" finished-at="2022-08-02T15:08:45 IST" duration-ms="101031">
+      <class name="seyahatProject.PricefetchTest">
+        <test-method signature="pricefetch()[pri:0, instance:seyahatProject.PricefetchTest@663c9e7a]" started-at="2022-08-02T15:07:04 IST" name="pricefetch" finished-at="2022-08-02T15:08:45 IST" duration-ms="100960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pricefetch -->
+      </class> <!-- seyahatProject.PricefetchTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
